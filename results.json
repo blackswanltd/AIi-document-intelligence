@@ -1,0 +1,73 @@
+{
+  "documents": 160,
+  "train": 120,
+  "test": 40,
+  "accuracy": 1.0,
+  "report": {
+    "compliance": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "insurance": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "invoice": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "logistics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    }
+  },
+  "example_extraction": {
+    "references": [
+      "REF-000"
+    ],
+    "amounts": [
+      "$100.00"
+    ],
+    "dates": [
+      "2026-10-01"
+    ]
+  },
+  "example_search": [
+    {
+      "id": "logistics-9",
+      "text": "warehouse inventory dispatch reference REF-009 amount $109.00 date 2026-10-10",
+      "score": 0.5469770000497973
+    },
+    {
+      "id": "logistics-37",
+      "text": "warehouse inventory dispatch reference REF-037 amount $137.00 date 2026-10-10",
+      "score": 0.5469770000497973
+    },
+    {
+      "id": "logistics-1",
+      "text": "warehouse inventory dispatch reference REF-001 amount $101.00 date 2026-10-02",
+      "score": 0.5138121847111113
+    }
+  ]
+}

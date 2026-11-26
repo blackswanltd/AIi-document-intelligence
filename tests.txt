@@ -1,0 +1,12 @@
+test_classification (test_engine.TestEngine.test_classification) ... ok
+test_dataset (test_engine.TestEngine.test_dataset) ... ok
+test_empty_extract (test_engine.TestEngine.test_empty_extract) ... ok
+test_empty_search (test_engine.TestEngine.test_empty_search) ... ok
+test_extract (test_engine.TestEngine.test_extract) ... ok
+test_search (test_engine.TestEngine.test_search) ... ok
+test_unique_ids (test_engine.TestEngine.test_unique_ids) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.012s
+
+OK
